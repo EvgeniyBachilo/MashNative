@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f85419-bcaa-431e-97ed-41e4550308b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/AppButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/AppText.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/AppButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/AppButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/WelcomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/WelcomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652971639643</updated>
       <workItem from="1652971642334" duration="322000" />
-      <workItem from="1652971969500" duration="2785000" />
+      <workItem from="1652971969500" duration="3079000" />
+      <workItem from="1653054964010" duration="2684000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1652972840781</created>
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652972840781</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creayed appbutton, added prettier">
+      <created>1653032782109</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653032782109</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,40 +116,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="started project" />
-    <option name="LAST_COMMIT_MESSAGE" value="started project" />
+    <MESSAGE value="creayed appbutton, added prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="creayed appbutton, added prettier" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1652972840487">
+    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653032781833">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1652972840487" />
-    <state width="1305" height="229" key="GridCell.Tab.0.bottom" timestamp="1653032672804">
+    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653032781833" />
+    <state x="220" y="127" key="DiffContextDialog" timestamp="1653032767754">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1305" height="229" key="GridCell.Tab.0.bottom/0.25.1680.955@0.25.1680.955" timestamp="1653032672804" />
-    <state width="1305" height="229" key="GridCell.Tab.0.center" timestamp="1653032672803">
+    <state x="220" y="127" key="DiffContextDialog/0.25.1680.955@0.25.1680.955" timestamp="1653032767754" />
+    <state width="1277" height="229" key="GridCell.Tab.0.bottom" timestamp="1653058111206">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1305" height="229" key="GridCell.Tab.0.center/0.25.1680.955@0.25.1680.955" timestamp="1653032672803" />
-    <state width="1305" height="229" key="GridCell.Tab.0.left" timestamp="1653032672802">
+    <state width="1277" height="229" key="GridCell.Tab.0.bottom/0.25.1680.955@0.25.1680.955" timestamp="1653058111206" />
+    <state width="1277" height="229" key="GridCell.Tab.0.center" timestamp="1653058111206">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1305" height="229" key="GridCell.Tab.0.left/0.25.1680.955@0.25.1680.955" timestamp="1653032672802" />
-    <state width="1305" height="229" key="GridCell.Tab.0.right" timestamp="1653032672803">
+    <state width="1277" height="229" key="GridCell.Tab.0.center/0.25.1680.955@0.25.1680.955" timestamp="1653058111206" />
+    <state width="1277" height="229" key="GridCell.Tab.0.left" timestamp="1653058111205">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1305" height="229" key="GridCell.Tab.0.right/0.25.1680.955@0.25.1680.955" timestamp="1653032672803" />
+    <state width="1277" height="229" key="GridCell.Tab.0.left/0.25.1680.955@0.25.1680.955" timestamp="1653058111205" />
+    <state width="1277" height="229" key="GridCell.Tab.0.right" timestamp="1653058111206">
+      <screen x="0" y="25" width="1680" height="955" />
+    </state>
+    <state width="1277" height="229" key="GridCell.Tab.0.right/0.25.1680.955@0.25.1680.955" timestamp="1653058111206" />
     <state x="349" y="138" key="SettingsEditor" timestamp="1652971963064">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="349" y="138" key="SettingsEditor/0.25.1680.955@0.25.1680.955" timestamp="1652971963064" />
-    <state x="440" y="225" key="Vcs.Push.Dialog.v2" timestamp="1652980140063">
+    <state x="440" y="225" key="Vcs.Push.Dialog.v2" timestamp="1653032786219">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="440" y="225" key="Vcs.Push.Dialog.v2/0.25.1680.955@0.25.1680.955" timestamp="1652980140063" />
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1652980890777">
+    <state x="440" y="225" key="Vcs.Push.Dialog.v2/0.25.1680.955@0.25.1680.955" timestamp="1653032786219" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1653058421118">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1652980890777" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1653058421118" />
   </component>
 </project>
