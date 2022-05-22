@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f85419-bcaa-431e-97ed-41e4550308b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/mosh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/screens/ListingDetailsScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ListItemSeparator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Screen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/MessagesScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/ViewImageScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/ViewImageScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,17 @@
       <recent name="$PROJECT_DIR$/app/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.ios">
+  <component name="RunManager" selected="npm.android">
+    <configuration name="android" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="android" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="ios" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -71,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.android" />
         <item itemvalue="npm.ios" />
         <item itemvalue="npm.start" />
       </list>
@@ -101,7 +113,7 @@
       <workItem from="1652971642334" duration="322000" />
       <workItem from="1652971969500" duration="3079000" />
       <workItem from="1653054964010" duration="6697000" />
-      <workItem from="1653133594063" duration="241000" />
+      <workItem from="1653133594063" duration="4216000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1652972840781</created>
@@ -131,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653080165756</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1653133989460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653133989460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,33 +161,34 @@
     <MESSAGE value="creayed appbutton, added prettier" />
     <MESSAGE value="WelcomeScreen styling" />
     <MESSAGE value="created card component" />
-    <option name="LAST_COMMIT_MESSAGE" value="created card component" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653080165560">
+    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653133989181">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653080165560" />
+    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653133989181" />
     <state x="220" y="127" key="DiffContextDialog" timestamp="1653032767754">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="220" y="127" key="DiffContextDialog/0.25.1680.955@0.25.1680.955" timestamp="1653032767754" />
-    <state width="1277" height="229" key="GridCell.Tab.0.bottom" timestamp="1653130952676">
+    <state width="1277" height="229" key="GridCell.Tab.0.bottom" timestamp="1653248316171">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1277" height="229" key="GridCell.Tab.0.bottom/0.25.1680.955@0.25.1680.955" timestamp="1653130952676" />
-    <state width="1277" height="229" key="GridCell.Tab.0.center" timestamp="1653130952675">
+    <state width="1277" height="229" key="GridCell.Tab.0.bottom/0.25.1680.955@0.25.1680.955" timestamp="1653248316171" />
+    <state width="1277" height="229" key="GridCell.Tab.0.center" timestamp="1653248316170">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1277" height="229" key="GridCell.Tab.0.center/0.25.1680.955@0.25.1680.955" timestamp="1653130952675" />
-    <state width="1277" height="229" key="GridCell.Tab.0.left" timestamp="1653130952675">
+    <state width="1277" height="229" key="GridCell.Tab.0.center/0.25.1680.955@0.25.1680.955" timestamp="1653248316170" />
+    <state width="1277" height="229" key="GridCell.Tab.0.left" timestamp="1653248316169">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1277" height="229" key="GridCell.Tab.0.left/0.25.1680.955@0.25.1680.955" timestamp="1653130952675" />
-    <state width="1277" height="229" key="GridCell.Tab.0.right" timestamp="1653130952676">
+    <state width="1277" height="229" key="GridCell.Tab.0.left/0.25.1680.955@0.25.1680.955" timestamp="1653248316169" />
+    <state width="1277" height="229" key="GridCell.Tab.0.right" timestamp="1653248316171">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1277" height="229" key="GridCell.Tab.0.right/0.25.1680.955@0.25.1680.955" timestamp="1653130952676" />
+    <state width="1277" height="229" key="GridCell.Tab.0.right/0.25.1680.955@0.25.1680.955" timestamp="1653248316171" />
     <state x="349" y="138" key="SettingsEditor" timestamp="1653133735138">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
@@ -177,9 +197,9 @@
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="440" y="225" key="Vcs.Push.Dialog.v2/0.25.1680.955@0.25.1680.955" timestamp="1653058540275" />
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1653131926423">
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1653249450225">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1653131926423" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1653249450225" />
   </component>
 </project>

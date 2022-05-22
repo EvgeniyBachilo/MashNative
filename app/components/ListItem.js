@@ -19,6 +19,7 @@ export default ListItem;
 const styles = StyleSheet.create({
   itemContainer: {
     flexDirection: "row",
+    padding: 15,
   },
   image: {
     width: 70,
