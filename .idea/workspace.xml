@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f85419-bcaa-431e-97ed-41e4550308b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/ListItemDeleteAction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ListItemSeparator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ListItemSeparator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/colors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/MessagesScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/MessagesScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +107,7 @@
       <workItem from="1652971642334" duration="322000" />
       <workItem from="1652971969500" duration="3079000" />
       <workItem from="1653054964010" duration="6697000" />
-      <workItem from="1653133594063" duration="6683000" />
+      <workItem from="1653133594063" duration="7147000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1652972840781</created>
@@ -157,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653249958379</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created handle item delete functionality">
+      <created>1653297067049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653297067049</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,13 +171,14 @@
     <MESSAGE value="created card component" />
     <MESSAGE value="commit" />
     <MESSAGE value="created list item separator. flatList" />
-    <option name="LAST_COMMIT_MESSAGE" value="created list item separator. flatList" />
+    <MESSAGE value="created handle item delete functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="created handle item delete functionality" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653249958115">
+    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653297066767">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653249958115" />
+    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653297066767" />
     <state x="220" y="127" key="DiffContextDialog" timestamp="1653032767754">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
@@ -201,10 +203,10 @@
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="349" y="138" key="SettingsEditor/0.25.1680.955@0.25.1680.955" timestamp="1653133735138" />
-    <state x="440" y="225" key="Vcs.Push.Dialog.v2" timestamp="1653249962505">
+    <state x="440" y="225" key="Vcs.Push.Dialog.v2" timestamp="1653297073315">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="440" y="225" key="Vcs.Push.Dialog.v2/0.25.1680.955@0.25.1680.955" timestamp="1653249962505" />
+    <state x="440" y="225" key="Vcs.Push.Dialog.v2/0.25.1680.955@0.25.1680.955" timestamp="1653297073315" />
     <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1653249450225">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
