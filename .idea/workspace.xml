@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f85419-bcaa-431e-97ed-41e4550308b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/Icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/AccountScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Screen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/colors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,7 @@
       <workItem from="1652971969500" duration="3079000" />
       <workItem from="1653054964010" duration="6697000" />
       <workItem from="1653133594063" duration="7780000" />
-      <workItem from="1653302291780" duration="507000" />
+      <workItem from="1653302291780" duration="3165000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1652972840781</created>
@@ -167,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653298126388</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="created Icon component">
+      <created>1653302848707</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653302848707</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,13 +192,14 @@
     <MESSAGE value="created list item separator. flatList" />
     <MESSAGE value="created handle item delete functionality" />
     <MESSAGE value="pull to refresh functionality implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="pull to refresh functionality implemented" />
+    <MESSAGE value="created Icon component" />
+    <option name="LAST_COMMIT_MESSAGE" value="created Icon component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653298126132">
+    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653302848531">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653298126132" />
+    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653302848531" />
     <state x="220" y="127" key="DiffContextDialog" timestamp="1653032767754">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
@@ -217,9 +228,9 @@
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="440" y="225" key="Vcs.Push.Dialog.v2/0.25.1680.955@0.25.1680.955" timestamp="1653298128034" />
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1653249450225">
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1653305624581">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1653249450225" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1653305624581" />
   </component>
 </project>
