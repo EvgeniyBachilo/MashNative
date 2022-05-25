@@ -5,6 +5,7 @@ import Screen from "./app/components/Screen";
 import AppTextInput from "./app/components/AppTextInput";
 import AppPicker from "./app/components/AppPicker";
 import LoginScreen from "./app/screens/LoginScreen";
+import RegisterScreen from "./app/screens/RegisterScreen";
 
 const categories = [
   {
@@ -24,5 +25,5 @@ const categories = [
 export default function App() {
   const [category, setCategory] = useState();
 
-  return <LoginScreen />;
+  return <RegisterScreen />;
 }
