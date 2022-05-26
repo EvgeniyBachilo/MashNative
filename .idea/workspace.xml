@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3f85419-bcaa-431e-97ed-41e4550308b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/AppText.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/AppText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,7 @@
       <workItem from="1653392845657" duration="359000" />
       <workItem from="1653393208351" duration="67000" />
       <workItem from="1653393396384" duration="4699000" />
-      <workItem from="1653467020145" duration="9898000" />
+      <workItem from="1653467020145" duration="10118000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1652972840781</created>
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653563407984</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added number of  lines to list item">
+      <created>1653563906049</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1653563906049</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,17 +276,18 @@
     <MESSAGE value="created register screen" />
     <MESSAGE value="created Listings screen" />
     <MESSAGE value="added chevrons to list items" />
-    <option name="LAST_COMMIT_MESSAGE" value="added chevrons to list items" />
+    <MESSAGE value="added number of  lines to list item" />
+    <option name="LAST_COMMIT_MESSAGE" value="added number of  lines to list item" />
   </component>
   <component name="WindowStateProjectService">
     <state x="231" y="165" key="#Notifications" timestamp="1653311621499">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="231" y="165" key="#Notifications/0.25.1680.955@0.25.1680.955" timestamp="1653311621499" />
-    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653563407814">
+    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653563905901">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653563407814" />
+    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653563905901" />
     <state x="375" y="122" key="CommitChangelistDialog2/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653380364466" />
     <state x="375" y="129" key="CommitChangelistDialog2/1680.25.1920.985/0.25.1680.1025@0.25.1680.1025" timestamp="1653399853272" />
     <state x="220" y="127" key="DiffContextDialog" timestamp="1653032767754">
