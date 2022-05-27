@@ -20,6 +20,8 @@ const AppPicker = ({
   onSelectItem,
   selectedItem,
   width = "100%",
+  PickerItemComponent = PickerItem,
+  numberOfColumns = 1,
 }) => {
   const [modalVisible, setModalVisible] = useState(false);
   return (
@@ -58,17 +60,21 @@ const AppPicker = ({
             onPress={() => setModalVisible(false)}
           />
           <FlatList
+            numColumns={numberOfColumns}
             data={items}
             keyExtractor={(item) => item.value.toString()}
             renderItem={({ item }) => (
-              <PickerItem
-                label={item.label}
+              <PickerItemComponent
+                item={item}
                 onPress={() => {
                   setModalVisible(false);
                   onSelectItem(item);
                 }}
               />
             )}
+            // columnWrapperStyle={{
+            //   justifyContent: numberOfColumns === 3 ? "space-around" : "start",
+            // }}
           />
         </Screen>
       </Modal>
