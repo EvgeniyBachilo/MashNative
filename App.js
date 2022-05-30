@@ -13,32 +13,10 @@ import * as Permissions from "expo-permissions";
 import ImageInput from "./app/components/ImageInput";
 
 export default function App() {
-  const [imageUri, setImageUri] = useState();
-  const requestPermission = async () => {
-    const result = await ImagePicker.getMediaLibraryPermissionsAsync(true);
-    if (!result.granted) {
-      alert("give a permission!!");
-    }
-  };
-  useEffect(() => {
-    requestPermission();
-  }, []);
-  const selectImage = async () => {
-    try {
-      const result = await ImagePicker.launchImageLibraryAsync();
-      if (!result.cancelled) {
-        setImageUri(result.uri);
-      }
-    } catch (e) {
-      console.log("Error choosing image");
-    }
-  };
-
+  const [imageUri, setImageUri] = useState(null);
   return (
     <Screen>
-      <Button title={"Add image"} onPress={selectImage} />
-      <Image source={{ uri: imageUri }} style={{ width: 200, height: 200 }} />
-      <ImageInput uri={imageUri} />
+      <ImageInput uri={imageUri} onChangeImage={(uri) => setImageUri(uri)} />
     </Screen>
   );
 }
