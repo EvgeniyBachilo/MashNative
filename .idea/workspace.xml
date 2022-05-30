@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f85419-bcaa-431e-97ed-41e4550308b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/components/ImageInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,7 @@
       <workItem from="1653392845657" duration="359000" />
       <workItem from="1653393208351" duration="67000" />
       <workItem from="1653393396384" duration="4699000" />
-      <workItem from="1653467020145" duration="16544000" />
+      <workItem from="1653467020145" duration="18101000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1652972840781</created>
@@ -267,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653658895092</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added imagePicker">
+      <created>1653907395650</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1653907395650</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,17 +301,18 @@
     <MESSAGE value="added number of  lines to list item" />
     <MESSAGE value="added width prop to inputs" />
     <MESSAGE value="created CategoryPickerItem component" />
-    <option name="LAST_COMMIT_MESSAGE" value="created CategoryPickerItem component" />
+    <MESSAGE value="added imagePicker" />
+    <option name="LAST_COMMIT_MESSAGE" value="added imagePicker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="231" y="165" key="#Notifications" timestamp="1653311621499">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="231" y="165" key="#Notifications/0.25.1680.955@0.25.1680.955" timestamp="1653311621499" />
-    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653658894896">
+    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653907395377">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653658894896" />
+    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653907395377" />
     <state x="375" y="122" key="CommitChangelistDialog2/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653380364466" />
     <state x="375" y="129" key="CommitChangelistDialog2/1680.25.1920.985/0.25.1680.1025@0.25.1680.1025" timestamp="1653399853272" />
     <state x="220" y="127" key="DiffContextDialog" timestamp="1653032767754">
@@ -354,10 +361,18 @@
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="440" y="225" key="Vcs.Push.Dialog.v2/0.25.1680.955@0.25.1680.955" timestamp="1653562534739" />
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1653906969536">
+    <state x="283" y="266" width="694" height="472" key="find.popup" timestamp="1653907597267">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1653906969536" />
+    <state x="283" y="266" width="694" height="472" key="find.popup/0.25.1680.955@0.25.1680.955" timestamp="1653907597267" />
+    <state x="489" y="311" key="save.file.as.template.dialog" timestamp="1653907912040">
+      <screen x="0" y="25" width="1680" height="955" />
+    </state>
+    <state x="489" y="311" key="save.file.as.template.dialog/0.25.1680.955@0.25.1680.955" timestamp="1653907912040" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1653908386345">
+      <screen x="0" y="25" width="1680" height="955" />
+    </state>
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1653908386345" />
     <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653397027566" />
   </component>
 </project>
