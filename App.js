@@ -11,12 +11,25 @@ import ListingEditScreen from "./app/screens/ListingEditScreen";
 import * as ImagePicker from "expo-image-picker";
 import * as Permissions from "expo-permissions";
 import ImageInput from "./app/components/ImageInput";
+import ImageInputList from "./app/components/ImageInputList";
 
 export default function App() {
-  const [imageUri, setImageUri] = useState(null);
+  const [imageUris, setImageUris] = useState([]);
+
+  const handleAdd = (uri) => {
+    setImageUris([...imageUris, uri]);
+  };
+
+  const handleRemove = (uri) => {
+    setImageUris(imageUris.filter((imageUri) => imageUri !== uri));
+  };
   return (
     <Screen>
-      <ImageInput uri={imageUri} onChangeImage={(uri) => setImageUri(uri)} />
+      <ImageInputList
+        uris={imageUris}
+        onAddImage={handleAdd}
+        onRemoveImage={handleRemove}
+      />
     </Screen>
   );
 }
