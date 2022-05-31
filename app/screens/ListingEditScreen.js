@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { StyleSheet } from "react-native";
 import * as Yup from "yup";
 
@@ -64,6 +64,24 @@ const validationSchema = Yup.object().shape({
 });
 
 const ListingEditScreen = () => {
+  const [location, setLocation] = useState();
+
+  const getLocation = async () => {
+    const { granted } = await Location.requestPermissionsAsync();
+    if (!granted) {
+      return;
+    }
+    const {
+      coords: { longitude, latitude },
+    } = Location.getLastKnownPositionAsync();
+
+    setLocation({ longitude, latitude });
+  };
+
+  useEffect(() => {
+    getLocation();
+  }, []);
+
   return (
     <Screen style={styles.container}>
       <AppForm
@@ -75,7 +93,7 @@ const ListingEditScreen = () => {
           images: [],
         }}
         onSubmit={(values) => {
-          console.log(values);
+          console.log(location);
         }}
         validationSchema={validationSchema}
       >
