@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f85419-bcaa-431e-97ed-41e4550308b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/components/FormImagePicker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ImageInputList.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ImageInputList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/ListingEditScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/ListingEditScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +119,7 @@
       <workItem from="1653393208351" duration="67000" />
       <workItem from="1653393396384" duration="4699000" />
       <workItem from="1653467020145" duration="19262000" />
-      <workItem from="1653910829191" duration="2156000" />
+      <workItem from="1653910829191" duration="3492000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1652972840781</created>
@@ -294,14 +296,20 @@
       <option name="project" value="LOCAL" />
       <updated>1653912885796</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="implemented horizontal scroll">
+      <created>1653915328905</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653915328905</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="started project" />
     <MESSAGE value="creayed appbutton, added prettier" />
     <MESSAGE value="WelcomeScreen styling" />
     <MESSAGE value="created card component" />
@@ -326,45 +334,46 @@
     <MESSAGE value="created image input" />
     <MESSAGE value="finished image input" />
     <MESSAGE value="created imageinputlist component" />
-    <option name="LAST_COMMIT_MESSAGE" value="created imageinputlist component" />
+    <MESSAGE value="implemented horizontal scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented horizontal scroll" />
   </component>
   <component name="WindowStateProjectService">
     <state x="231" y="165" key="#Notifications" timestamp="1653311621499">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="231" y="165" key="#Notifications/0.25.1680.955@0.25.1680.955" timestamp="1653311621499" />
-    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653912885653">
+    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1653915328713">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653912885653" />
+    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1653915328713" />
     <state x="375" y="122" key="CommitChangelistDialog2/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653380364466" />
     <state x="375" y="129" key="CommitChangelistDialog2/1680.25.1920.985/0.25.1680.1025@0.25.1680.1025" timestamp="1653399853272" />
     <state x="220" y="127" key="DiffContextDialog" timestamp="1653032767754">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="220" y="127" key="DiffContextDialog/0.25.1680.955@0.25.1680.955" timestamp="1653032767754" />
-    <state width="1659" height="461" key="GridCell.Tab.0.bottom" timestamp="1653910872991">
+    <state width="1275" height="461" key="GridCell.Tab.0.bottom" timestamp="1654001793186">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1659" height="461" key="GridCell.Tab.0.bottom/0.25.1680.955@0.25.1680.955" timestamp="1653910872991" />
+    <state width="1275" height="461" key="GridCell.Tab.0.bottom/0.25.1680.955@0.25.1680.955" timestamp="1654001793186" />
     <state width="1216" height="229" key="GridCell.Tab.0.bottom/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653381007347" />
     <state width="1239" height="461" key="GridCell.Tab.0.bottom/1680.25.1920.985/0.25.1680.1025@0.25.1680.1025" timestamp="1653399911326" />
-    <state width="1659" height="461" key="GridCell.Tab.0.center" timestamp="1653910872991">
+    <state width="1275" height="461" key="GridCell.Tab.0.center" timestamp="1654001793185">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1659" height="461" key="GridCell.Tab.0.center/0.25.1680.955@0.25.1680.955" timestamp="1653910872991" />
+    <state width="1275" height="461" key="GridCell.Tab.0.center/0.25.1680.955@0.25.1680.955" timestamp="1654001793185" />
     <state width="1216" height="229" key="GridCell.Tab.0.center/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653381007346" />
     <state width="1239" height="461" key="GridCell.Tab.0.center/1680.25.1920.985/0.25.1680.1025@0.25.1680.1025" timestamp="1653399911325" />
-    <state width="1659" height="461" key="GridCell.Tab.0.left" timestamp="1653910872990">
+    <state width="1275" height="461" key="GridCell.Tab.0.left" timestamp="1654001793184">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1659" height="461" key="GridCell.Tab.0.left/0.25.1680.955@0.25.1680.955" timestamp="1653910872990" />
+    <state width="1275" height="461" key="GridCell.Tab.0.left/0.25.1680.955@0.25.1680.955" timestamp="1654001793184" />
     <state width="1216" height="229" key="GridCell.Tab.0.left/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653381007345" />
     <state width="1239" height="461" key="GridCell.Tab.0.left/1680.25.1920.985/0.25.1680.1025@0.25.1680.1025" timestamp="1653399911324" />
-    <state width="1659" height="461" key="GridCell.Tab.0.right" timestamp="1653910872991">
+    <state width="1275" height="461" key="GridCell.Tab.0.right" timestamp="1654001793185">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state width="1659" height="461" key="GridCell.Tab.0.right/0.25.1680.955@0.25.1680.955" timestamp="1653910872991" />
+    <state width="1275" height="461" key="GridCell.Tab.0.right/0.25.1680.955@0.25.1680.955" timestamp="1654001793185" />
     <state width="1216" height="229" key="GridCell.Tab.0.right/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653381007346" />
     <state width="1239" height="461" key="GridCell.Tab.0.right/1680.25.1920.985/0.25.1680.1025@0.25.1680.1025" timestamp="1653399911326" />
     <state x="282" y="235" key="RollbackChangesDialog" timestamp="1653563880024">
@@ -393,10 +402,10 @@
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="489" y="311" key="save.file.as.template.dialog/0.25.1680.955@0.25.1680.955" timestamp="1653907912040" />
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1653912754039">
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1654000998443">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1653912754039" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.955@0.25.1680.955" timestamp="1654000998442" />
     <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653397027566" />
   </component>
 </project>
