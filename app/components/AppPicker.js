@@ -72,9 +72,6 @@ const AppPicker = ({
                 }}
               />
             )}
-            // columnWrapperStyle={{
-            //   justifyContent: numberOfColumns === 3 ? "space-around" : "start",
-            // }}
           />
         </Screen>
       </Modal>
