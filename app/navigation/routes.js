@@ -1,7 +1,11 @@
 const routes = Object.freeze({
-  WELCOME_SCREEN: "Welcome",
-  LOGIN_SCREEN: "Login",
-  REGISTER_SCREEN: "Register",
+  WELCOME_SCREEN: "WelcomeScreen",
+  LOGIN_SCREEN: "LoginScreen",
+  REGISTER_SCREEN: "RegisterScreen",
+  LISTINGS_SCREEN: "ListingsScreen",
+  LISTINGS_EDIT_SCREEN: "ListingsEditScreen",
+  LISTING_DETAILS_SCREEN: "ListingsDetailsScreen",
+  ACCOUNT_SCREEN: "AccountScreen",
 });
 
 export default routes;

@@ -7,13 +7,14 @@ import colors from "../config/colors";
 import Proto from "../assets/mosh.jpg";
 import ListItem from "../components/ListItem";
 
-const ListingDetailsScreen = () => {
+const ListingDetailsScreen = ({ route }) => {
+  const listing = route.params;
   return (
     <View>
-      <Image style={styles.image} source={Jacket} />
+      <Image style={styles.image} source={listing.image} />
       <View style={styles.detailsContainer}>
-        <AppText style={styles.title}>Jacket for sale</AppText>
-        <AppText style={styles.price}>100$</AppText>
+        <AppText style={styles.title}>{listing.title}</AppText>
+        <AppText style={styles.price}>${listing.price}</AppText>
         <View style={styles.userContainer}>
           <ListItem image={Proto} title="Mosh Hamedani" subtitle="5 listings" />
         </View>
