@@ -6,6 +6,7 @@ const routes = Object.freeze({
   LISTINGS_EDIT_SCREEN: "ListingsEditScreen",
   LISTING_DETAILS_SCREEN: "ListingsDetailsScreen",
   ACCOUNT_SCREEN: "AccountScreen",
+  MESSAGES_SCREEN: "MessagesScreen",
 });
 
 export default routes;
