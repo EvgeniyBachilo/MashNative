@@ -9,40 +9,15 @@ import listingsApi from "../api/listings";
 import AppText from "../components/AppText";
 import AppButton from "../components/AppButton";
 import AppActivityIndicator from "../components/AppActivityIndicator";
-
-// const listings = [
-//   {
-//     id: 1,
-//     title: "Red jacket",
-//     price: 100,
-//     image: require("../assets/jacket.jpg"),
-//   },
-//   {
-//     id: 2,
-//     title: "Couch in great condition",
-//     price: 1000,
-//     image: require("../assets/couch.jpg"),
-//   },
-// ];
+import useApi from "../hooks/useApi";
 
 const ListingsScreen = ({ navigation }) => {
-  const [listings, setListings] = useState([]);
-  const [error, setError] = useState(false);
-  const [loading, setLoading] = useState(false);
-
-  const loadListings = async () => {
-    setLoading(true);
-    const response = await listingsApi.getListings();
-    setLoading(false);
-
-    if (!response.ok) {
-      setError(true);
-      return;
-    }
-
-    setError(false);
-    setListings(response.data);
-  };
+  const {
+    data: listings,
+    error,
+    request: loadListings,
+    loading,
+  } = useApi(listingsApi.getListings);
 
   useEffect(() => {
     loadListings();
