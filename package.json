@@ -19,16 +19,18 @@
     "expo-location": "~12.0.4",
     "expo-permissions": "~12.0.1",
     "formik": "^2.2.9",
+    "lottie-react-native": "3.5.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "0.63.4",
     "react-native-gesture-handler": "~1.10.2",
+    "react-native-progress": "^5.0.0",
     "react-native-reanimated": "~2.1.0",
     "react-native-safe-area-context": "3.2.0",
     "react-native-screens": "~3.0.0",
     "react-native-web": "~0.11.7",
     "yup": "^0.32.11",
-    "lottie-react-native": "3.5.0"
+    "react-native-svg": "12.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",

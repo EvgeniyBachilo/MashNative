@@ -1,5 +1,4 @@
 import { useState } from "react";
-import listingsApi from "../api/listings";
 
 const useApi = (apiFunc) => {
   const [data, setData] = useState([]);
