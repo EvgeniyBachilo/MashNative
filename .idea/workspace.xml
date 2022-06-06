@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f85419-bcaa-431e-97ed-41e4550308b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/screens/UploadScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/animations/done.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/listings.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/listings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hooks/useApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/hooks/useApi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/ListingEditScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/ListingEditScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/UploadScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/UploadScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +34,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/animations" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/animations" />
+      <recent name="$PROJECT_DIR$/app/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/assets/animations" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.ios">
@@ -134,7 +131,7 @@
       <workItem from="1654256488905" duration="2553000" />
       <workItem from="1654501017864" duration="10000" />
       <workItem from="1654510613496" duration="2315000" />
-      <workItem from="1654514899063" duration="541000" />
+      <workItem from="1654514899063" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1652972840781</created>
@@ -388,14 +385,20 @@
       <option name="project" value="LOCAL" />
       <updated>1654179176031</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="added progress bar">
+      <created>1654515590596</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1654515590596</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created default styles object" />
     <MESSAGE value="template of login screen ready" />
     <MESSAGE value="created error message component" />
     <MESSAGE value="refactored code, made app form component" />
@@ -420,17 +423,18 @@
     <MESSAGE value="added listings api, listings list received" />
     <MESSAGE value="added lottie activity indicator" />
     <MESSAGE value="created useApi custom hook" />
-    <option name="LAST_COMMIT_MESSAGE" value="created useApi custom hook" />
+    <MESSAGE value="added progress bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="added progress bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="231" y="165" key="#Notifications" timestamp="1653311621499">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
     <state x="231" y="165" key="#Notifications/0.25.1680.955@0.25.1680.955" timestamp="1653311621499" />
-    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1654179175847">
+    <state x="375" y="122" key="CommitChangelistDialog2" timestamp="1654515590252">
       <screen x="0" y="25" width="1680" height="955" />
     </state>
-    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1654179175847" />
+    <state x="375" y="122" key="CommitChangelistDialog2/0.25.1680.955@0.25.1680.955" timestamp="1654515590252" />
     <state x="375" y="122" key="CommitChangelistDialog2/1680.25.1920.1055/0.25.1680.955@0.25.1680.955" timestamp="1653380364466" />
     <state x="375" y="129" key="CommitChangelistDialog2/1680.25.1920.985/0.25.1680.1025@0.25.1680.1025" timestamp="1653399853272" />
     <state x="220" y="127" key="DiffContextDialog" timestamp="1653032767754">
